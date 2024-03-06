@@ -51,8 +51,8 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Aikeu | Artificial Neural Network AI React NextJs Template",
-  description: "Artificial Neural Network AI React NextJs Template",
+  title: "Blockchain Tech",
+  description: "my blockchain portfolio",
   keywords: [
     "Artificial",
     "Ai",
