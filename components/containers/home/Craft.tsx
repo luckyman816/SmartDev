@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import CraftThumb from "@/public/images/craft-thumb.png";
+import CraftThumb from "@/public/images/craft-thumb.jpg";
 import Shape from "@/public/images/footer/shape-one.png";
 
 const Craft = () => {
