@@ -199,9 +199,6 @@ const HomeBanner = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-      <div className="banner-thumb-one">
-        <Image src={ThumbOne} alt="Image" priority />
-      </div>
       <Link className="scroll-position-btn" href="#scrollPosition">
         <Image src={Frame} alt="Image" priority />
         <i className="bi bi-arrow-down"></i>
