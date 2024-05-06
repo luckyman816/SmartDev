@@ -6,11 +6,11 @@ import one from "@/public/images/blog/one.png";
 import two from "@/public/images/blog/two.png";
 import three from "@/public/images/blog/three.png";
 import four from "@/public/images/blog/four.png";
-import five from "@/public/images/blog/five.png";
-import six from "@/public/images/blog/six.png";
-import seven from "@/public/images/blog/seven.png";
-import eight from "@/public/images/blog/eight.png";
-import nine from "@/public/images/blog/nine.png";
+import five from "@/public/images/blogOne/five.png";
+import six from "@/public/images/blogOne/six.png";
+import seven from "@/public/images/blogOne/seven.png";
+import eight from "@/public/images/blogOne/eight.png";
+import nine from "@/public/images/blogOne/nine.png";
 const BlogOne = () => {
   const [isHover, setIsHover] = useState(0);
 
