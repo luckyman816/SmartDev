@@ -4,7 +4,6 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import Link from "next/link";
 
-
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -50,16 +49,24 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="container">
-        <div className="row justify-content-center section">
+        <div className="row justify-content-center section gap-5">
           <div className="col-12 col-md-9 col-lg-9 col-xl-10 col-xxl-9">
             <div className="footer__content text-center">
               <h2 className="light-title fw-7 title-animation">
-                Let’s take a journey of blockchain with me.
+                Let’s take a journey of Web3 with me.
               </h2>
             </div>
           </div>
+          <div className="footer__content text-center">
+            Menemen, Izmir Turkey, Citizen of Turkey
+          </div>
+          <div className="footer__content text-center">
+            Linkedin: https://www.linkedin.com/in/metin-iscan
+          </div>
+          <div className="footer__content text-center">
+            Gmail: metiniscan@gmail.com
+          </div>
         </div>
-
         <div className="row">
           <div className="col-12">
             <div className="footer__copyright">
@@ -69,13 +76,11 @@ const Footer = () => {
                     <p>
                       Copyright &copy;{" "}
                       <span id="copyrightYear">{currentYear}</span>{" "}
-                      <Link href="/">Daniel (Lin) Solis</Link>. All Rights Reserved
+                      <Link href="/">M.METİN İŞCAN</Link>. All Rights Reserved
                     </p>
                   </div>
                 </div>
-                <div className="col-12 col-lg-6">
-                  
-                </div>
+                <div className="col-12 col-lg-6"></div>
               </div>
             </div>
           </div>

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ToolsThumb from "@/public/images/tools-thumb.png";
+import ToolsThumb from "@/public/images/cress-consultancy.webp";
 
 const Tools = () => {
   return (
@@ -21,18 +21,22 @@ const Tools = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-lg-5 col-xxl-5 offset-xxl-1 order-first order-lg-last">
+          <div className="col-12 col-lg-6 col-xxl-5 offset-xxl-1 order-first order-lg-last">
             <div className="section__content">
-              <span className="sub-title">The Future of Blockchain</span>
+              <span className="sub-title">Frontend & Blockchain developer &#40;London, UK&#41;</span>
               <h2 className="title title-animation">
-                The future of blockchain in finance is quite promising.
+               Cressoft Consultancy <br />
+               &#40;2022/8 - Current&#41;
               </h2>
               <p>
-                The interaction with blockchain will be as effortless as sending
-                an email, its complexities hidden, its efficacy and security
-                omnipresent. In this future, blockchain is not just a
-                technology; it is a silent orchestrator of digital trust and
-                ownership.
+              • Creating new features, functionality and capabilities on the e-commerce sites using React and Typescript <br/>
+              • Worked with a 16-person agile team to create comprehensive customer solutions.<br/>
+              • Write clean, maintainable, and well-documented code.<br/>
+              • Troubleshoot and resolve software defects and performance issues.<br/>
+              • Conduct thorough testing, including unit and integration testing, to ensure software quality.<br/>
+              • Built token bridge chain which enables users to transfer tokens from Ethereum to our chain<br/>
+              • Added observer module which tracks the transaction from Ethereum and the Cosmos chain <br />
+              • Built NFT marketplace on the chain using Cosmwasm
               </p>
             </div>
           </div>

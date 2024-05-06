@@ -26,40 +26,12 @@ const TextSlider = () => {
         <SwiperSlide>
           <div className="text-slider__single">
             <h2 className="light-title">
-              <Link href="services">Blockchain Architecture</Link>
-            </h2>
-            <Image src={Star} alt="Image" priority />
-            <h2 className="light-title">
-              <Link href="services" className="text-stroke" data-text="Smart Contract">
-                Smart Contract
-              </Link>
-            </h2>
-            <Image src={Star} alt="Image" priority />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="text-slider__single">
-            <h2 className="light-title">
-              <Link href="services">web3.js</Link>
-            </h2>
-            <Image src={Star} alt="Image" priority />
-            <h2 className="light-title">
-              <Link href="services" className="text-stroke" data-text="Blockchain Development">
-                Blockchain Development
-              </Link>
-            </h2>
-            <Image src={Star} alt="Image" priority />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="text-slider__single">
-            <h2 className="light-title">
-              <Link href="services">Solana</Link>
+              <Link href="services">NFT & Cryptocurrency</Link>
             </h2>
             <Image src={Star} alt="Image" priority />
             <h2 className="light-title">
               <Link href="services" className="text-stroke" data-text="Blockchain">
-                Blockchain
+              Blockchain
               </Link>
             </h2>
             <Image src={Star} alt="Image" priority />
@@ -68,12 +40,40 @@ const TextSlider = () => {
         <SwiperSlide>
           <div className="text-slider__single">
             <h2 className="light-title">
-              <Link href="services">API</Link>
+              <Link href="services">NFT Marketplace</Link>
             </h2>
             <Image src={Star} alt="Image" priority />
             <h2 className="light-title">
-              <Link href="services" className="text-stroke" data-text="Database Architecture">
-                Database Architecture
+              <Link href="services" className="text-stroke" data-text="Solidity">
+              Solidity
+              </Link>
+            </h2>
+            <Image src={Star} alt="Image" priority />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="text-slider__single">
+            <h2 className="light-title">
+              <Link href="services">React.js</Link>
+            </h2>
+            <Image src={Star} alt="Image" priority />
+            <h2 className="light-title">
+              <Link href="services" className="text-stroke" data-text="Next.js">
+                Next.js
+              </Link>
+            </h2>
+            <Image src={Star} alt="Image" priority />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="text-slider__single">
+            <h2 className="light-title">
+              <Link href="services">AngularJS</Link>
+            </h2>
+            <Image src={Star} alt="Image" priority />
+            <h2 className="light-title">
+              <Link href="services" className="text-stroke" data-text="Node.js">
+                Node.js
               </Link>
             </h2>
             <Image src={Star} alt="Image" priority />
@@ -86,8 +86,8 @@ const TextSlider = () => {
             </h2>
             <Image src={Star} alt="Image" priority />
             <h2 className="light-title">
-              <Link href="services" className="text-stroke" data-text="API Integration">
-                API Integration
+              <Link href="services" className="text-stroke" data-text="Smart Contract">
+              Smart Contract
               </Link>
             </h2>
             <Image src={Star} alt="Image" priority />
@@ -96,7 +96,7 @@ const TextSlider = () => {
         <SwiperSlide>
           <div className="text-slider__single">
             <h2 className="light-title">
-              <Link href="services">React.js</Link>
+              <Link href="services">Cryptocurrency</Link>
             </h2>
             <Image src={Star} alt="Image" priority />
             <h2 className="light-title">
@@ -110,7 +110,7 @@ const TextSlider = () => {
         <SwiperSlide>
           <div className="text-slider__single">
             <h2 className="light-title">
-              <Link href="services">Vue.js</Link>
+              <Link href="services">DeFi</Link>
             </h2>
             <Image src={Star} alt="Image" priority />
             <h2 className="light-title">

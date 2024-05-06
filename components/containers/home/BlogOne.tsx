@@ -8,6 +8,9 @@ import three from "@/public/images/blog/three.png";
 import four from "@/public/images/blog/four.png";
 import five from "@/public/images/blog/five.png";
 import six from "@/public/images/blog/six.png";
+import seven from "@/public/images/blog/seven.png";
+import eight from "@/public/images/blog/eight.png";
+import nine from "@/public/images/blog/nine.png";
 const BlogOne = () => {
   const [isHover, setIsHover] = useState(0);
 
@@ -40,17 +43,17 @@ const BlogOne = () => {
               onMouseEnter={() => setIsHover(0)}
             >
               <div className="blog__single-thumb">
-                <Link href="https://www.momint.so/">
-                  <Image src={four} alt="Image" priority />
+                <Link href="https://staging-prototype-metropoly.netlify.app/">
+                  <Image src={seven} alt="Image" priority />
                 </Link>
               </div>
               <div className="blog__single-content">
                 
                 <h4>
-                  <Link href="https://www.momint.so/">
-                    Marketplace NFT
-                    <br /> Renewable Energy On-Chain Sustainable Distributed
-                    Energy Grids Owned By The People{" "}
+                  <Link href="https://staging-prototype-metropoly.netlify.app/">
+                    -NFT Marketplace
+                    <br /> -Buy Your First Real Estate NFT in Seconds <br />
+                    -The world’s first NFT marketplace backed by real-world properties{" "}
                   </Link>
                 </h4>
               </div>
@@ -62,24 +65,20 @@ const BlogOne = () => {
                 "blog__single topy-tilt" +
                 (isHover === 1 ? " blog__single-active" : " ")
               }
-              onMouseEnter={() => setIsHover(0)}
+              onMouseEnter={() => setIsHover(1)}
             >
               <div className="blog__single-thumb">
-                <Link href="https://acxd.kryptomind.net/">
-                  <Image src={six} alt="Image" priority />
+                <Link href="https://www.nakheel.com/">
+                  <Image src={four} alt="Image" priority />
                 </Link>
               </div>
               <div className="blog__single-content">
-                <div className="blog__single-meta">
-                  
-                </div>
+                
                 <h4>
-                  <Link href="https://acxd.kryptomind.net/">
-                    What Makes ACX Unique?
-                    <br />
-                    1. Infinite Liquidity{" "}<br/>
-                    2. Earn Yield at Scale <br />
-                    3. Secure - Decentralized - Verifiable
+                  <Link href="https://www.nakheel.com/">
+                    -Nakheel.com
+                    <br /> -Leading Dubai Real Estate Developer | Nakheel <br />
+                    -ASP.Net & Mustache & Open Graph{" "}
                   </Link>
                 </h4>
               </div>
@@ -91,22 +90,21 @@ const BlogOne = () => {
                 "blog__single topy-tilt" +
                 (isHover === 2 ? " blog__single-active" : " ")
               }
-              onMouseEnter={() => setIsHover(0)}
+              onMouseEnter={() => setIsHover(2)}
             >
               <div className="blog__single-thumb">
-                <Link href="https://mint.savagekingdom.io/">
-                  <Image src={one} alt="Image" priority />
+                <Link href="https://avix.co.jp/">
+                  <Image src={six} alt="Image" priority />
                 </Link>
               </div>
               <div className="blog__single-content">
-                <div className="blog__single-meta">
-                  
-                </div>
                 <h4>
-                  <Link href="https://mint.savagekingdom.io/">
-                    NFT mint.
-                    <br /> The Savage Kingdom are a collection of 3,333 unique
-                    hand drawn beast-like NFTs known as savages.{" "}
+                  <Link href="https://avix.co.jp/">
+                    Avix.co.jp
+                    <br />
+                    -As a flagship shop <br />
+                    -Ai Signage Solution<br/>
+                    -The challenge to create a new shop decoration<br/>
                   </Link>
                 </h4>
               </div>
@@ -118,22 +116,20 @@ const BlogOne = () => {
                 "blog__single topy-tilt" +
                 (isHover === 3 ? " blog__single-active" : " ")
               }
-              onMouseEnter={() => setIsHover(1)}
+              onMouseEnter={() => setIsHover(3)}
             >
               <div className="blog__single-thumb">
-                <Link href="https://senoa.io/">
-                  <Image src={two} alt="Image" priority />
+                <Link href="https://rango.exchange/apis">
+                  <Image src={eight} alt="Image" priority />
                 </Link>
               </div>
               <div className="blog__single-content">
-                <div className="blog__single-meta">
-                  
-                </div>
                 <h4>
-                  <Link href="https://senoa.io/">
-                    INVISIBLE FRIENDS NFT Collections.
-                    <br /> Crypto Wallet &#x2768;Rainbow, Coinbase Wallet,
-                    MetaMask, WalletConnect&#x2769;
+                  <Link href="https://rango.exchange/apis">
+                    Rango Exchange
+                    <br />
+                    -One API, all DeFi liquidity & cross-chain interoperability <br />
+                    -DApp, API & SDK, Widget, Explorer<br/>
                   </Link>
                 </h4>
               </div>
@@ -145,23 +141,20 @@ const BlogOne = () => {
                 "blog__single topy-tilt" +
                 (isHover === 4 ? " blog__single-active" : " ")
               }
-              onMouseEnter={() => setIsHover(2)}
+              onMouseEnter={() => setIsHover(4)}
             >
               <div className="blog__single-thumb">
-                <Link href="https://app.volta.club/">
-                  <Image src={three} alt="Image" priority />
+                <Link href="https://www.xyzreality.com/">
+                  <Image src={one} alt="Image" priority />
                 </Link>
               </div>
               <div className="blog__single-content">
-                <div className="blog__single-meta">
-                  
-                </div>
                 <h4>
-                  <Link href="https://app.volta.club/">
-                    Volta Club. <br />
-                    Decentralized applications&#x2768;DApps&#x2769;
-                    <br />
-                    Dapp frontend for contracts I built with React + Web3.js.
+                  <Link href="https://www.xyzreality.com/#">
+                    XYZreality.com
+                    <br /> -That saves your construction project time and money <br/>
+                    -Augmented reality that is purpose built for construction
+                    {" "}
                   </Link>
                 </h4>
               </div>
@@ -173,11 +166,11 @@ const BlogOne = () => {
                 "blog__single topy-tilt" +
                 (isHover === 5 ? " blog__single-active" : " ")
               }
-              onMouseEnter={() => setIsHover(2)}
+              onMouseEnter={() => setIsHover(5)}
             >
               <div className="blog__single-thumb">
-                <Link href="https://mintspace.io/?v=f9308c5d0596">
-                  <Image src={five} alt="Image" priority />
+                <Link href="https://viptalkers.com/">
+                  <Image src={two} alt="Image" priority />
                 </Link>
               </div>
               <div className="blog__single-content">
@@ -185,10 +178,82 @@ const BlogOne = () => {
                   
                 </div>
                 <h4>
+                  <Link href="https://viptalkers.com/">
+                    Viptalkers.com
+                    <br /> -Learn English Online. <br/>
+                    -Learn English with video courses and live tutors. <br/>
+                  </Link>
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-6 col-xl-4 fade-top">
+            <div
+              className={
+                "blog__single topy-tilt" +
+                (isHover === 6 ? " blog__single-active" : " ")
+              }
+              onMouseEnter={() => setIsHover(6)}
+            >
+              <div className="blog__single-thumb">
+                <Link href="https://kidzrup.com/">
+                  <Image src={three} alt="Image" priority />
+                </Link>
+              </div>
+              <div className="blog__single-content">
+                <h4>
+                  <Link href="https://kidzrup.com/">
+                    Kidzrup.com <br />
+                    -For children English Online Platform
+                    <br />
+                    -We enable students aged 7-17 to improve their foreign language skills <br/>
+                  </Link>
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-6 col-xl-4 fade-top">
+            <div
+              className={
+                "blog__single topy-tilt" +
+                (isHover === 7 ? " blog__single-active" : " ")
+              }
+              onMouseEnter={() => setIsHover(7)}
+            >
+              <div className="blog__single-thumb">
+                <Link href="https://mintspace.io/?v=f9308c5d0596">
+                  <Image src={five} alt="Image" priority />
+                </Link>
+              </div>
+              <div className="blog__single-content">
+                <h4>
                   <Link href="https://mintspace.io/?v=f9308c5d0596">
-                    NFTs without fees <br />
-                    Mint Space lets you sell your NFT artwork without gas fees
-                    or any other fees.No costs are made to the seller
+                   Gambulls.com<br />
+                   -This is Responsible Casino Game <br/>
+                   -This game supports the generation of online gamblers
+                  </Link>
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-6 col-xl-4 fade-top">
+            <div
+              className={
+                "blog__single topy-tilt" +
+                (isHover === 8 ? " blog__single-active" : " ")
+              }
+              onMouseEnter={() => setIsHover(8)}
+            >
+              <div className="blog__single-thumb">
+                <Link href="https://billionair.com/">
+                  <Image src={nine} alt="Image" priority />
+                </Link>
+              </div>
+              <div className="blog__single-content">
+                <h4>
+                  <Link href="https://billionair.com/">
+                  Billionair.com<br />
+                   Free NFT Tickets, Win Grand Raffle Prize, $AIRB Token is live on MEXC, Stake Your $AIRB, Join weekly contests <br/>
                   </Link>
                 </h4>
               </div>

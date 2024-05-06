@@ -9,11 +9,10 @@ const VideoSection = () => {
                 <div className="col-12 col-lg-9 col-xxl-7">
                   <div className="section__header text-center">
                     <h2 className="title mt-0 title-animation">
-                       Senoa.io Project succeeded through team cooperation
+                       High Level of Blockchain Technology
                     </h2>
                     <p>
-                      A Utility Rich Deflationary Token Connecting Digital
-                      Assets To The Real World Unlocking Your Financial Freedom
+                    Designing, Developing, and Maintaining Blockchain-based Projects. 
                     </p>
                   </div>
                 </div>

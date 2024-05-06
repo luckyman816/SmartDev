@@ -29,6 +29,7 @@ const page = () => {
         <TextSliderLarge />
         <Tools />
         <Generation />
+        <GenerationTwo />
         <Partner />
         <Overview />
         <VideoSection />

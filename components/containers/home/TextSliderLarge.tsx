@@ -33,10 +33,23 @@ const TextSliderLarge = () => {
           <div className="text-slider__single">
             <h2 className="large-title">
               <Link href="services">
-                Blockchain
-                <span className="text-stroke" data-text="Cryptocurrency Wallets">
+                Frontend development
+                <span className="text-stroke" data-text="React & Next.js">
                   {" "}
-                  Cryptocurrency Wallets
+                  React & Next.js
+                </span>
+              </Link>
+            </h2>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="text-slider__single">
+            <h2 className="large-title">
+              <Link href="services">
+              Frontend development
+                <span className="text-stroke" data-text="Vue & Nuxt.js">
+                  {" "}
+                  Vue & Nuxt.js
                 </span>
               </Link>
             </h2>
@@ -47,9 +60,9 @@ const TextSliderLarge = () => {
             <h2 className="large-title">
               <Link href="services">
               Blockchain
-                <span className="text-stroke" data-text="Non-Custodial Wallets">
+                <span className="text-stroke" data-text="Smart Contract & Solidity">
                   {" "}
-                  Non-Custodial Wallets
+                  Smart Contract & Solidity
                 </span>
               </Link>
             </h2>
@@ -60,9 +73,9 @@ const TextSliderLarge = () => {
             <h2 className="large-title">
               <Link href="services">
               Blockchain
-                <span className="text-stroke" data-text="NFT Minting Engines">
+                <span className="text-stroke" data-text="NFT Marketplace">
                   {" "}
-                  NFT Minting Engines
+                  NFT Marketplace
                 </span>
               </Link>
             </h2>
@@ -73,9 +86,9 @@ const TextSliderLarge = () => {
             <h2 className="large-title">
               <Link href="services">
               Blockchain
-                <span className="text-stroke" data-text="NFT Websites">
+                <span className="text-stroke" data-text="DApp Development">
                   {" "}
-                  NFT Websites
+                  DApp Development
                 </span>
               </Link>
             </h2>
@@ -85,23 +98,10 @@ const TextSliderLarge = () => {
           <div className="text-slider__single">
             <h2 className="large-title">
               <Link href="services">
-              Blockchain
-                <span className="text-stroke" data-text="dApp Development">
+              Backend Development
+                <span className="text-stroke" data-text="Rust & Golang & Python">
                   {" "}
-                  dApp Development
-                </span>
-              </Link>
-            </h2>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="text-slider__single">
-            <h2 className="large-title">
-              <Link href="services">
-              Blockchain
-                <span className="text-stroke" data-text="NFT Marketplace Management">
-                  {" "}
-                  NFT Marketplace Management
+                  Rust & Golang & Python
                 </span>
               </Link>
             </h2>

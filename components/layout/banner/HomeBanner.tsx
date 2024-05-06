@@ -1,5 +1,5 @@
 "use client";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -12,11 +12,13 @@ import Two from "@/public/images/banner/large-slider/two.png";
 import Three from "@/public/images/banner/large-slider/three.png";
 import Four from "@/public/images/banner/large-slider/four.png";
 import Five from "@/public/images/banner/large-slider/five.png";
+import Six from "@/public/images/banner/large-slider/six.png";
 import SmOne from "@/public/images/banner/small-slider/one.png";
 import SmTwo from "@/public/images/banner/small-slider/two.png";
 import SmThree from "@/public/images/banner/small-slider/three.png";
 import SmFour from "@/public/images/banner/small-slider/four.png";
 import SmFive from "@/public/images/banner/small-slider/five.png";
+
 import ThumbOne from "@/public/images/banner/banner-thumb-one.png";
 import Frame from "@/public/images/frame-one.png";
 
@@ -52,7 +54,8 @@ const HomeBanner = () => {
       }
     }
   }, []);
-
+  const sentence: string = "The greatest pleasure in life is doing what people say you cannot do."
+  
   return (
     <section className="banner bg-img">
       <div className="container">
@@ -60,8 +63,8 @@ const HomeBanner = () => {
           <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xxl-12">
             <div className="banner__content text-center">
               <h1 className="title-animation">
-                As a skilled Blockchain developer and Architect
-                <span>I always will give the best quality result!</span>
+                {/* <span>The greatest pleasure in life is doing what people say you cannot do.</span> */}
+                <span>{sentence}</span>
               </h1>
             </div>
           </div>
@@ -109,6 +112,11 @@ const HomeBanner = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="banner__large-slider__single">
+            <Image src={Six} alt="Image" priority />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="banner__large-slider__single">
             <Image src={One} alt="Image" priority />
           </div>
         </SwiperSlide>
@@ -125,11 +133,6 @@ const HomeBanner = () => {
         <SwiperSlide>
           <div className="banner__large-slider__single">
             <Image src={Four} alt="Image" priority />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="banner__large-slider__single">
-            <Image src={Five} alt="Image" priority />
           </div>
         </SwiperSlide>
       </Swiper>
@@ -199,10 +202,10 @@ const HomeBanner = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-      <Link className="scroll-position-btn" href="#scrollPosition">
+      {/* <Link className="scroll-position-btn" href="#scrollPosition">
         <Image src={Frame} alt="Image" priority />
         <i className="bi bi-arrow-down"></i>
-      </Link>
+      </Link> */}
     </section>
   );
 };

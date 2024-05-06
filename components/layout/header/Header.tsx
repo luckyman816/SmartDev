@@ -79,7 +79,7 @@ const Header = () => {
                 <nav className="navbar p-0">
                   <div className="navbar__menu">
                     <ul className="navbar__list">
-                    &#10029;Welcome to Daniel (Lin) Solis&#10076;s personal website.&#10029;
+                    &#10029;&nbsp;&nbsp;Welcome to M.METİN İŞCAN Personal Website.&nbsp;&nbsp;&#10029;
                       {NavbarData.map((item, index) => {
                         return <MenuItem key={index} item={item} />;
                       })}
